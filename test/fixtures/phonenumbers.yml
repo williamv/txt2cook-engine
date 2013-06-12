@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+mine:
+  phone_number: 9173309016
+
+not_mine:
+  phone_number: 1234567890
+
+no_number:
+  phone_number: 
+
+not_a_number:
+  phone_number: sdfsdfsd

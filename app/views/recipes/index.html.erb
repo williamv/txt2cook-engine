@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Txt2Cook-Engine</title></head>
+	<body>
+		<h1> Recipe index</h1>
+		<table>
+			<tr>
+				<th> Recipe Name</th>
+				<th> Difficulty</th>
+				<th> Time </th>
+				<th> # Ingredients </th>
+			</tr>
+			<% @recipes.each do |recipe| %>
+			<tr>			
+				<td><%= recipe.recipe_name %></td>
+				<td><%= recipe.difficulty_level %></td>
+				<td><%= recipe.total_time %></td>
+				<td><%= recipe.ingredient_count %></td>
+				</tr>
+			<% end %>
+		</table>
+	<body>
+</html>
+
+

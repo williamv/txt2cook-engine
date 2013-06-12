@@ -1,0 +1,12 @@
+garlicbread:
+  recipe_name: garlicbread
+  difficulty_level: Easy
+  total_time: 15
+  ingredient_count: 5
+
+waffles:
+  recipe_name: waffles
+  difficulty_level: Easy
+  total_time: 10
+  ingredient_count: 3
+

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Txt2Cook-Engine</title></head>
+	<body>
+		<h1><%= @recipe.recipe_name %> </h1>
+		<%= @recipe.ingredient_count %>
+		<%= @recipe.total_time %>
+		<%= @recipe.difficulty_level %>
+		<%= link_to "recipe listing", recipes_path %>
+		<%= link_to 'Edit recipe', edit_recipe_path(@recipe) %>
+	</body>
+</html>

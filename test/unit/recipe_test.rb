@@ -2,11 +2,7 @@ require "test_helper"
 
 class RecipeTest < ActiveSupport::TestCase
 	test "should be able to create a new recipe" do
-		r = Recipe.new 
-		r.recipe_name = "Orzo"
-		r.difficulty_level = "Easy"
-		r.total_time = 15
-		r.ingredient_count = 5		
+		r = recipes(:garlicbread) 		
 		assert r.save, "Cannot create a valid recipe"
 	end
 
